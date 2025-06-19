@@ -1,5 +1,6 @@
 import React from "react";
 import { GoPackage } from "react-icons/go";
+import ServicePackage from "./ServicePackage";
 
 const Packages = () => {
   return (
@@ -11,6 +12,8 @@ const Packages = () => {
       <h1 className="text-7xl">Tailored packages</h1>
       <h1 className="text-7xl">for <span className=" text-[#3d4b42]">every pet</span></h1> <br />
       <p>Whether your pet needs a quick refresh or a full spa <br /> day, we’ve got the perfect package to suit their needs.</p>
+
+      <ServicePackage/>
     </div>
   );
 };
