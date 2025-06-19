@@ -14,6 +14,7 @@ import Testimonials from "./Components/Testimonials";
 import FAQs from "./Components/FAQs";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
+import Marquee from "./Components/Marquee";
 
 function App() {
   const [count, setCount] = useState(0);
